@@ -1,0 +1,34 @@
+{
+  "name": "Node_CRUD",
+  "version": "1.0.0",
+  "description": "CRUD web app, using Node - MongoDB - Bootstrap4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon src/index.js",
+    "start":"node index" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agusprats/Node_CRUD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agusprats/Node_CRUD/issues"
+  },
+  "homepage": "https://github.com/agusprats/Node_CRUD#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.1",
+    "express-session": "^1.17.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.11.18",
+    "nodemon": "^2.0.7",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  }
+}
